@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/contact">Contact</a></li>
-                <li><a href="https://tally.so/PASTE_YOUR_REGISTRATION_LINK_HERE" target="_blank" rel="noopener">Register</a></li>
+               <li><a href="https://tally.so/r/pb1RaP" target="_blank" rel="noopener">Register</a></li>
                 <li><a href="/access-verification" class="navbar-cta">Start Learning</a></li>
             </ul>
         `;
