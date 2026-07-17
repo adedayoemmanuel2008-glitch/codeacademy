@@ -1,0 +1,44 @@
+[
+  {
+    "id": "html",
+    "name": "HTML",
+    "icon": "code",
+    "description": "Learn the foundation of every website structure your first web pages.",
+    "total_lessons": 10
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "icon": "palette",
+    "description": "Style and design beautiful, responsive web pages from scratch.",
+    "total_lessons": 10
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "icon": "zap",
+    "description": "Bring your websites to life with interactivity and logic.",
+    "total_lessons": 10
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "icon": "terminal",
+    "description": "Master one of the most in-demand programming languages.",
+    "total_lessons": 10
+  },
+  {
+    "id": "git_github",
+    "name": "Git & GitHub",
+    "icon": "git-branch",
+    "description": "Track your code and collaborate like a professional developer.",
+    "total_lessons": 10
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "icon": "server",
+    "description": "Build powerful, full-stack web applications with Python.",
+    "total_lessons": 10
+  }
+]

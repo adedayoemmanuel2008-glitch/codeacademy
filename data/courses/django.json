@@ -1,0 +1,33 @@
+{
+  "course_id": "django",
+  "course_name": "Django",
+  "lessons": [
+    {
+      "id": "01",
+      "title": "Introduction to Django",
+      "description": "Understand what Django is, how it works, and why it is one of the most powerful Python web frameworks.",
+      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+    },
+    {
+      "id": "02",
+      "title": "Setting Up Your Django Project",
+      "description": "Install Django, create your first project and app, and understand the folder structure Django generates.",
+      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+    },
+    {
+      "id": "03",
+      "title": "URLs, Views and Templates",
+      "description": "Learn how Django handles web requests using URLs, views, and templates to build your first dynamic web page.",
+      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - SEA TECH</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+</head>
+<body>
+
+    {% include 'partials/navbar.html' %}
+
+    <main class="legal-page">
+        <div class="legal-container">
+            <h1>Privacy Policy</h1>
+            <p class="legal-updated">Last updated: July 2026</p>
+
+            <p>This Privacy Policy explains how <strong>SEA TECHNOLOGIES MEDIA</strong> ("SEA TECH," "we," "us," or "our") collects, uses, and protects your information when you use the Code Academy platform.</p>
+
+            <h2>1. Information We Collect</h2>
+            <p>When you register for the platform, your registration details (such as your name and email address) are collected through our external registration form provider, Tally. We do not collect or store this information directly on our website's backend.</p>
+
+            <h2>2. How We Use Your Information</h2>
+            <p>We use the information you provide to:</p>
+            <ul>
+                <li>Review and approve your registration</li>
+                <li>Issue you a personal access code</li>
+                <li>Communicate with you regarding your access or course updates</li>
+            </ul>
+
+            <h2>3. Access Codes</h2>
+            <p>Access codes are generated and managed manually by SEA TECHNOLOGIES MEDIA. We keep a record of which code is assigned to which student solely for internal tracking and security purposes. This record is stored privately and is never exposed publicly or shared with third parties.</p>
+
+            <h2>4. Assignments</h2>
+            <p>Assignments submitted through our external assignment forms are handled by our form provider, Tally, in accordance with their own privacy practices.</p>
+
+            <h2>5. Cookies and Sessions</h2>
+            <p>Our platform uses a session cookie to remember that you have successfully verified your access code, so you do not need to re-enter it on every visit. This cookie does not track personal browsing activity outside our platform.</p>
+
+            <h2>6. Data Sharing</h2>
+            <p>We do not sell, rent, or trade your personal information to third parties. Your information is used solely for the purposes described in this policy.</p>
+
+            <h2>7. Data Security</h2>
+            <p>We take reasonable measures to protect the information we manage, including keeping access code records private and inaccessible to the public. However, no online platform can guarantee absolute security.</p>
+
+            <h2>8. Your Rights</h2>
+            <p>You may request that we remove your registration information or deactivate your access code at any time by contacting us directly.</p>
+
+            <h2>9. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Continued use of the platform after changes are posted constitutes acceptance of the revised policy.</p>
+
+            <h2>10. Contact</h2>
+            <p>If you have any questions about this Privacy Policy, please reach out to us via the contact page or our official WhatsApp channel.</p>
+
+            <p class="legal-footer-note">This platform is proudly built and maintained by <strong>SEA TECHNOLOGIES MEDIA</strong>.</p>
+        </div>
+    </main>
+
+    {% include 'partials/footer.html' %}
+    {% include 'partials/whatsapp_button.html' %}
+
+    <script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+</body>
+</html>

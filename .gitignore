@@ -1,0 +1,18 @@
+# Environment variables (contains secrets - never commit this)
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment folder
+venv/
+env/
+.venv/
+
+# VS Code settings folder (optional, personal editor settings)
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db

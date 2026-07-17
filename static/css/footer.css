@@ -1,0 +1,138 @@
+/* =============================================
+   FOOTER.CSS — Footer Styles
+   SEA TECH / Code Academy
+============================================= */
+
+/* ── Main Footer ── */
+.footer {
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+    padding: var(--space-7) 0 var(--space-4);
+    margin-top: auto;
+}
+
+[data-theme="dark"] .footer {
+    background-color: #080D17;
+    border-top-color: var(--border-color);
+}
+
+/* ── Footer Inner Container ── */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--space-4);
+}
+
+/* ── Footer Top Section (brand + links) ── */
+.footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: var(--space-6);
+    padding-bottom: var(--space-6);
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* ── Brand Section ── */
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+}
+
+.footer-logo {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+.footer-tagline {
+    font-size: var(--text-body);
+    color: var(--text-secondary);
+    margin: 0;
+    max-width: 280px;
+    line-height: 1.6;
+}
+
+/* ── Footer Links Columns ── */
+.footer-links h4 {
+    font-family: var(--font-heading);
+    font-size: var(--text-body);
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: var(--space-3);
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.footer-links ul li a {
+    font-size: var(--text-body);
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+    display: inline-block;
+}
+
+.footer-links ul li a:hover {
+    color: var(--color-primary);
+}
+
+/* ── Footer Bottom Section (copyright) ── */
+.footer-bottom {
+    padding-top: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    align-items: center;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: var(--text-small);
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.footer-note {
+    font-size: var(--text-small);
+    color: var(--text-secondary);
+    opacity: 0.7;
+}
+
+/* =============================================
+   RESPONSIVE
+============================================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-5);
+    }
+
+    .footer-brand {
+        grid-column: 1 / -1;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: var(--space-4);
+    }
+
+    .footer-brand {
+        grid-column: auto;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+}

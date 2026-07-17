@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ course.course_name }} - Code Academy | SEA TECH</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lesson.css') }}">
+</head>
+<body>
+
+    {% include 'partials/navbar.html' %}
+
+    <main class="course-view-page">
+        <div class="container">
+
+            <!-- ── Breadcrumb ── -->
+            <nav class="breadcrumb">
+                <a href="{{ url_for('dashboard.dashboard') }}">Dashboard</a>
+                <span class="breadcrumb-separator">›</span>
+                <span class="breadcrumb-current">{{ course.course_name }}</span>
+            </nav>
+
+            <!-- ── Course Header ── -->
+            <div class="course-view-header">
+                <div class="course-view-icon">
+                    {% if course.course_id == 'html' %}🌐
+                    {% elif course.course_id == 'css' %}🎨
+                    {% elif course.course_id == 'javascript' %}⚡
+                    {% elif course.course_id == 'python' %}🐍
+                    {% elif course.course_id == 'git_github' %}🌿
+                    {% elif course.course_id == 'django' %}⚙️
+                    {% else %}📚
+                    {% endif %}
+                </div>
+                <div class="course-view-header-text">
+                    <h1>{{ course.course_name }}</h1>
+                    <p>{{ course.lessons | length }} Lessons work through them in order for the best learning experience.</p>
+                </div>
+            </div>
+
+            <!-- ── Lessons List ── -->
+            <div class="lessons-list">
+                {% for lesson in course.lessons %}
+                <div class="lesson-row">
+                    <div class="lesson-row-number">{{ lesson.id }}</div>
+                    <div class="lesson-row-content">
+                        <h4>{{ lesson.title }}</h4>
+                        <br>
+                        <p>{{ lesson.description }}</p>
+                    </div>
+                    <a href="{{ url_for('dashboard.lesson_view', course_id=course.course_id, lesson_id=lesson.id) }}"
+                       class="btn btn-primary lesson-start-btn">
+                        Start Lesson
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- ── Back Button ── -->
+            <div class="course-view-back">
+                <a href="{{ url_for('dashboard.dashboard') }}" class="btn btn-secondary">
+                    ← Back to Dashboard
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    {% include 'partials/footer.html' %}
+
+    <script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+
+</body>
+</html>

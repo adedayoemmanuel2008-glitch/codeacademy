@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ lesson.title }} - Code Academy | SEA TECH</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lesson.css') }}">
+</head>
+<body>
+
+    {% include 'partials/navbar.html' %}
+
+    <main class="lesson-page">
+        <div class="container">
+
+            <!-- ── Breadcrumb ── -->
+            <nav class="breadcrumb">
+                <a href="{{ url_for('dashboard.dashboard') }}">Dashboard</a>
+                <span class="breadcrumb-separator">›</span>
+                <a href="{{ url_for('dashboard.course_view', course_id=course_id) }}">Course</a>
+                <span class="breadcrumb-separator">›</span>
+                <span class="breadcrumb-current">{{ lesson.title }}</span>
+            </nav>
+
+            <!-- ── Lesson Header ── -->
+            <div class="lesson-header">
+                <span class="lesson-number-badge">Lesson {{ lesson.id }}</span>
+                <h1>{{ lesson.title }}</h1>
+                <p class="lesson-description">{{ lesson.description }}</p>
+            </div>
+
+            <!-- ── Video Section ── -->
+            <div class="lesson-video-wrapper">
+                <iframe
+                    src="{{ lesson.video_link | replace('/view?usp=sharing', '/preview') | replace('/view', '/preview') }}"
+                    allow="autoplay"
+                    allowfullscreen
+                    class="lesson-video">
+                </iframe>
+            </div>
+
+            <!-- ── Action Buttons ── -->
+            <div class="lesson-actions">
+                {% if lesson.notes_link %}
+                <a href="{{ lesson.notes_link }}"
+                   target="_blank"
+                   rel="noopener"
+                   class="btn btn-secondary lesson-action-btn">
+                    📄 Download Notes
+                </a>
+                {% endif %}
+
+                {% if lesson.code_link %}
+                <a href="{{ lesson.code_link }}"
+                   target="_blank"
+                   rel="noopener"
+                   class="btn btn-secondary lesson-action-btn">
+                    💻 Download Source Code
+                </a>
+                {% endif %}
+
+                {% if lesson.assignment_link %}
+                <a href="{{ lesson.assignment_link }}"
+                   target="_blank"
+                   rel="noopener"
+                   class="btn btn-primary lesson-action-btn">
+                    📝 Submit Assignment
+                </a>
+                {% endif %}
+            </div>
+
+            <!-- ── Previous / Next Navigation ── -->
+            <div class="lesson-navigation">
+                <div class="lesson-nav-left">
+                    {% if previous_lesson_id %}
+                    <a href="{{ url_for('dashboard.lesson_view', course_id=course_id, lesson_id=previous_lesson_id) }}"
+                       class="btn btn-secondary">
+                        ← Previous Lesson
+                    </a>
+                    {% endif %}
+                </div>
+                <div class="lesson-nav-right">
+                    {% if next_lesson_id %}
+                    <a href="{{ url_for('dashboard.lesson_view', course_id=course_id, lesson_id=next_lesson_id) }}"
+                       class="btn btn-primary">
+                        Next Lesson →
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- ── Back to Course ── -->
+            <div class="lesson-back">
+                <a href="{{ url_for('dashboard.course_view', course_id=course_id) }}"
+                   class="btn btn-ghost">
+                    ← Back to Course
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    {% include 'partials/footer.html' %}
+
+    <script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/lesson.js') }}"></script>
+
+</body>
+</html>

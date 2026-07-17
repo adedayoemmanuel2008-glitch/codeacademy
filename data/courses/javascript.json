@@ -1,0 +1,33 @@
+{
+  "course_id": "javascript",
+  "course_name": "JavaScript",
+  "lessons": [
+    {
+      "id": "01",
+      "title": "Introduction to JavaScript",
+      "description": "Understand what JavaScript is, how it runs in the browser, and write your first script.",
+      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+    },
+    {
+      "id": "02",
+      "title": "Variables and Data Types",
+      "description": "Learn how to store and work with different types of data using variables in JavaScript.",
+      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+    },
+    {
+      "id": "03",
+      "title": "Functions and Logic",
+      "description": "Build reusable blocks of code with functions and control your program flow with conditions.",
+      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+    }
+  ]
+}

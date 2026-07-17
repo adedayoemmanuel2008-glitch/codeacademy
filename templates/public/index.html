@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn HTML, CSS, JavaScript, Python, Git and Django completely free with SEA TECHOLOGIES Code Academy.">
+    <title>Code Academy - Learn Tech Skills for Free | SEA TECH</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+
+    <!-- Navbar -->
+    {% include 'partials/navbar.html' %}
+
+    <main>
+
+        <!-- ═══════════════════════════════════════
+             HERO SECTION
+        ════════════════════════════════════════ -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="hero-badge">100% Free • No Credit Card Required</span>
+                        <h1>Learn <span class="text-primary-color">Tech Skills</span> That Get You Hired</h1>
+                        <p>Master HTML, CSS, JavaScript, Python, Git & Django with structured courses, real projects, and a supportive community completely free.</p>
+                        <div class="hero-actions">
+                            <a href="https://tally.so/r/pb1RaP" target="_blank" rel="noopener" class="btn btn-primary">
+                                Register for Free
+                            </a>
+                            <a href="{{ url_for('auth.access_verification') }}" class="btn btn-secondary">
+                                I Have an Access Code
+                            </a>
+                        </div>
+                        <p class="hero-note">Already registered? Enter your access code to start learning.</p>
+                    </div>
+                    <div

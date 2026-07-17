@@ -1,0 +1,33 @@
+{
+  "course_id": "git_github",
+  "course_name": "Git & GitHub",
+  "lessons": [
+    {
+      "id": "01",
+      "title": "Introduction to Git & GitHub",
+      "description": "Understand what version control is, why it matters, and the difference between Git and GitHub.",
+      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+    },
+    {
+      "id": "02",
+      "title": "Setting Up Git",
+      "description": "Install Git on your computer, configure your identity, and create your first local repository.",
+      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+    },
+    {
+      "id": "03",
+      "title": "Commits, Push and Pull",
+      "description": "Learn how to save your work with commits, push code to GitHub, and pull updates from a remote repository.",
+      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+    }
+  ]
+}

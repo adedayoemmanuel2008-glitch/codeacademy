@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - SEA TECH</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+</head>
+<body>
+
+    {% include 'partials/navbar.html' %}
+
+    <main class="legal-page">
+        <div class="legal-container">
+            <h1>Terms & Conditions</h1>
+            <p class="legal-updated">Last updated: July 2026</p>
+
+            <p>Welcome to Code Academy, an online learning platform operated by <strong>SEA TECHNOLOGIES MEDIA</strong> ("SEA TECH," "we," "us," or "our"). By accessing or using this platform, you agree to be bound by the following Terms & Conditions. Please read them carefully.</p>
+
+            <h2>1. About the Platform</h2>
+            <p>Code Academy is a free online learning platform provided by SEA TECHNOLOGIES MEDIA, offering technology and programming courses to registered and approved students. All content is provided free of charge for educational purposes.</p>
+
+            <h2>2. Registration and Approval</h2>
+            <p>Registration is handled through our external registration form. Submitting a registration does not guarantee immediate access. All registrations are manually reviewed, and approved students will receive a personal access code within 48 hours of approval.</p>
+
+            <h2>3. Access Codes</h2>
+            <p>Access codes are issued individually to approved students and are intended for personal use only. You agree not to share, sell, publish, or distribute your access code to any other individual. SEA TECHNOLOGIES MEDIA reserves the right to revoke or deactivate any access code suspected of misuse.</p>
+
+            <h2>4. Course Content</h2>
+            <p>All videos, notes, source code, and materials provided through this platform are the intellectual property of SEA TECHNOLOGIES MEDIA unless otherwise stated. Content is provided for personal learning purposes only and may not be reproduced, redistributed, or used for commercial purposes without written permission.</p>
+
+            <h2>5. Assignments</h2>
+            <p>Assignments are submitted through external assignment forms linked within each lesson. Submission does not guarantee feedback within a specific timeframe.</p>
+
+            <h2>6. User Conduct</h2>
+            <p>By using this platform, you agree not to attempt to bypass the access verification system, interfere with the platform's normal operation, or use the platform for any unlawful purpose.</p>
+
+            <h2>7. No Warranty</h2>
+            <p>This platform and its content are provided "as is" without warranties of any kind. While we strive to keep all lesson content accurate and up to date, SEA TECHNOLOGIES MEDIA does not guarantee uninterrupted access or error-free content at all times.</p>
+
+            <h2>8. Limitation of Liability</h2>
+            <p>SEA TECHNOLOGIES MEDIA shall not be held liable for any indirect, incidental, or consequential damages arising from your use of, or inability to use, this platform.</p>
+
+            <h2>9. Changes to These Terms</h2>
+            <p>We may update these Terms & Conditions from time to time. Continued use of the platform after changes are posted constitutes acceptance of the revised terms.</p>
+
+            <h2>10. Contact</h2>
+            <p>For any questions regarding these Terms & Conditions, please reach out to us via the contact page or our official WhatsApp channel.</p>
+
+            <p class="legal-footer-note">This platform is proudly built and maintained by <strong>SEA TECHNOLOGIES MEDIA</strong>.</p>
+        </div>
+    </main>
+
+    {% include 'partials/footer.html' %}
+    {% include 'partials/whatsapp_button.html' %}
+
+    <script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Code Academy and SEA TECHNOLOGIES MEDIA — the free online learning platform for tech skills.">
+    <title>About Us - Code Academy | SEA TECH</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+</head>
+<body>
+
+    {% include 'partials/navbar.html' %}
+
+    <main>
+
+        <!-- ═══════════════════════════════════════
+             PAGE HEADER
+        ════════════════════════════════════════ -->
+        <section class="page-header">
+            <div class="container">
+                <h1>About <span class="text-primary-color">Code Academy</span></h1>
+                <p class="page-header-tagline">Learn. Build. Innovate.</p>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             INTRO SECTION
+        ════════════════════════════════════════ -->
+        <section class="about-intro section-padding">
+            <div class="container">
+                <div class="about-intro-content">
+                    <p>CodeAcademy is a technology learning platform created by <strong>SEA TECHNOLOGIES MEDIA</strong> to make quality tech education simple, practical, and accessible to everyone.</p>
+                    <p>Whether you're taking your first step into programming or building on your existing knowledge, CodeAcademy is designed to guide you through every stage of your learning journey with structured lessons, practical projects, and real-world examples.</p>
+                    <p>Our goal is not just to teach programming languages but to help learners develop the confidence, discipline, and problem solving mindset needed to succeed in today's digital world.</p>
+                    <p>We believe that technology creates opportunities, and everyone deserves the chance to learn, build, and grow regardless of their background or previous experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             MISSION & VISION
+        ════════════════════════════════════════ -->
+        <section class="mission-vision section-padding">
+            <div class="container">
+                <div class="mv-grid">
+                    <div class="mv-card">
+                        <div class="mv-icon">🎯</div>
+                        <h3>Our Mission</h3>
+                        <p>To empower aspiring developers by providing practical, beginner-friendly technology education that inspires continuous learning, creativity, and innovation.</p>
+                    </div>
+                    <div class="mv-card">
+                        <div class="mv-icon">🔭</div>
+                        <h3>Our Vision</h3>
+                        <p>To become one of the leading technology learning communities where individuals gain valuable digital skills, build impactful solutions, and contribute positively to the future of technology.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             WHAT YOU'LL LEARN
+        ════════════════════════════════════════ -->
+        <section class="what-you-learn section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What You'll <span class="text-primary-color">Learn</span></h2>
+                    <p>At CodeAcademy: TECH 201, you'll begin your journey with carefully structured lessons covering:</p>
+                </div>
+                <div class="courses-list">
+                    <div class="course-list-item">
+                        <span class="course-list-icon">🌐</span>
+                        <span>HTML</span>
+                    </div>
+                    <div class="course-list-item">
+                        <span class="course-list-icon">🎨</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="course-list-item">
+                        <span class="course-list-icon">⚡</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="course-list-item">
+                        <span class="course-list-icon">🐍</span>
+                        <span>Python</span>
+                    </div>
+                    <div class="course-list-item">
+                        <span class="course-list-icon">🌿</span>
+                        <span>Git & GitHub</span>
+                    </div>
+                    <div class="course-list-item">
+                        <span class="course-list-icon">⚙️</span>
+                        <span>Django</span>
+                    </div>
+                </div>
+                <p class="courses-note">Every lesson is designed to be easy to follow, practical, and focused on helping you apply what you learn through real coding exercises.</p>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             WHY LEARN WITH CODEACADEMY
+        ════════════════════════════════════════ -->
+        <section class="why-us section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Learn With <span class="text-primary-color">CodeAcademy</span>?</h2>
+                </div>
+                <div class="why-grid">
+                    <div class="why-item">
+                        <span class="why-check">✔</span>
+                        <span>Beginner-friendly lessons</span>
+                    </div>
+                    <div class="why-item">
+                        <span class="why-check">✔</span>
+                        <span>Step-by-step learning approach</span>
+                    </div>
+                    <div class="why-item">
+                        <span class="why-check">✔</span>
+                        <span>Practical coding exercises</span>
+                    </div>
+                    <div class="why-item">
+                        <span class="why-check">✔</span>
+                        <span>Downloadable learning resources</span>
+                    </div>
+                    <div class="why-item">
+                        <span class="why-check">✔</span>
+                        <span>Source code for every lesson</span>
+                    </div>
+                    <div class="why-item">
+                        <span class="why-check">✔</span>
+                        <span>Real-world projects</span>
+                    </div>
+                    <div class="why-item">
+                        <span class="why-check">✔</span>
+                        <span>Self-paced learning</span>
+                    </div>
+                    <div class="why-item">
+                        <span class="why-check">✔</span>
+                        <span>Community support</span>
+                    </div>
+                    <div class="why-item">
+                        <span class="why-check">✔</span>
+                        <span>Continuous course updates</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             ABOUT SEA TECHNOLOGIES MEDIA
+        ════════════════════════════════════════ -->
+        <section class="about-brand section-padding">
+            <div class="container">
+                <div class="brand-box">
+                    <img src="{{ url_for('static', filename='images/logo/seatech_logo.png') }}"
+                         alt="SEA TECHNOLOGIES MEDIA Logo"
+                         class="brand-box-logo">
+                    <h2>About <span class="text-primary-color">SEA TECHNOLOGIES MEDIA</span></h2>
+                    <p>SEA TECHNOLOGIES MEDIA is a technology-driven brand committed to empowering individuals through innovation, digital education, and creative solutions.</p>
+                    <p>Our vision extends beyond teaching programming — we are building a community where learning, creativity, and technology come together to inspire the next generation of innovators.</p>
+                    <p>CodeAcademy is one of our flagship initiatives, created to provide accessible, practical, and high-quality technology education for students and aspiring professionals.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             MEET THE FOUNDER
+        ════════════════════════════════════════ -->
+        <section class="founder section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Meet the <span class="text-primary-color">Founder</span></h2>
+                </div>
+                <div class="founder-card">
+                    <div class="founder-image-wrap">
+                        <img src="{{ url_for('static', filename='images/illustrations/emmanuel.jpeg') }}"
+                             alt="Emmanuel Adedayo - Founder of SEA TECHNOLOGIES MEDIA"
+                             class="founder-image">
+                    </div>
+                    <div class="founder-content">
+                        <h3>Emmanuel Adedayo</h3>
+                        <p class="founder-title">Founder, SEA TECHNOLOGIES MEDIA</p>
+                        <p class="founder-title">Founder & Lead Instructor, CodeAcademy</p>
+
+                        <p>Technology has always fascinated me not just because of what it can do, but because of the opportunities it creates for people willing to learn.</p>
+                        <p>As I continued my journey in software engineering, I noticed that many aspiring developers struggled to find learning resources that were simple, practical, and easy to understand. Some had the passion to learn but didn't know where to begin, while others gave up because the learning process felt overwhelming.</p>
+                        <p>That inspired me to create CodeAcademy.</p>
+                        <p>My goal is to make learning technology less intimidating and more practical by breaking complex concepts into simple, structured lessons that anyone can understand and apply.</p>
+                        <p>Every lesson on this platform is created with the learner in mind. I believe education should be clear, engaging, and focused on helping students build real skills not just complete tutorials.</p>
+                        <p>Beyond CodeAcademy, I founded SEA TECHNOLOGIES MEDIA to promote innovation, creativity, and technology-driven solutions that positively impact individuals and communities.</p>
+                        <p>Whether you're writing your first line of code or working on your first project, I'm excited to be part of your journey.</p>
+                        <p>Thank you for choosing CodeAcademy.</p>
+                        <p>I look forward to seeing what you'll build.</p>
+
+                        <blockquote class="founder-quote">
+                            "Everyone starts somewhere. The most important step is the one you take today."
+                            — Emmanuel Adedayo
+                        </blockquote>
+
+                        <div class="founder-connect">
+                            <p>💬 Have a question, need guidance, or simply want to connect? I'd be happy to hear from you.</p>
+                            <a href="https://wa.me/message/L3UNMJY7NGJGK1"
+                               target="_blank"
+                               rel="noopener"
+                               class="btn btn-primary">
+                                Connect with the Founder on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════
+             START YOUR JOURNEY CTA
+        ════════════════════════════════════════ -->
+        <section class="about-cta section-padding">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Start Your <span class="text-primary-color">Journey</span></h2>
+                    <p>Every expert was once a beginner. Take the first step, stay consistent, keep building, and never stop learning.</p>
+                    <p class="cta-tagline">Welcome to CodeAcademy: TECH 201.</p>
+                    <p class="cta-motto"><em>Learn. Build. Innovate.</em></p>
+                    <a href="https://tally.so/r/pb1RaP"
+                       target="_blank"
+                       rel="noopener"
+                       class="btn btn-primary">
+                        Register for Free
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    {% include 'partials/footer.html' %}
+    {% include 'partials/whatsapp_button.html' %}
+
+    <script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "course_id": "html",
+  "course_name": "HTML",
+  "lessons": [
+    {
+      "id": "01",
+      "title": "Introduction to HTML",
+      "description": "Understand what HTML is, how the web works, and set up your first HTML file.",
+      "video_link": "https://drive.google.com/PASTE_VIDEO_LINK_HERE",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
+    },
+    {
+      "id": "02",
+      "title": "HTML Elements and Tags",
+      "description": "Learn the most important HTML tags and how to structure content correctly.",
+      "video_link": "https://drive.google.com/PASTE_VIDEO_LINK_HERE",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/PASTE_ASSIGNMENT_LINK_HERE"
+    },
+    {
+      "id": "03",
+      "title": "Forms and Inputs",
+      "description": "Build interactive forms to collect information from users.",
+      "video_link": "https://drive.google.com/PASTE_VIDEO_LINK_HERE",
+      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
+      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "assignment_link": "https://tally.so/PASTE_ASSIGNMENT_LINK_HERE"
+    }
+  ]
+}

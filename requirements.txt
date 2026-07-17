@@ -1,0 +1,8 @@
+# Core web framework used to serve all routes, templates, and static files
+Flask==3.0.3
+
+# Loads environment variables from a local .env file during development
+python-dotenv==1.0.1
+
+# Production-grade WSGI server used by Render to run the Flask app
+gunicorn==22.0.0

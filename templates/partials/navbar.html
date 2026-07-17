@@ -1,0 +1,29 @@
+<nav class="navbar" id="navbar">
+    <div class="navbar-container">
+        <!-- Logo -->
+        <a href="{{ url_for('public.home') }}" class="navbar-logo">
+            <img src="{{ url_for('static', filename='images/logo/seatech_logo.png') }}" alt="SEA TECH Logo">
+        </a>
+
+        <!-- Desktop navigation links -->
+        <ul class="navbar-links" id="navbar-links">
+            <li><a href="{{ url_for('public.home') }}">Home</a></li>
+            <li><a href="{{ url_for('public.about') }}">About</a></li>
+            <li><a href="{{ url_for('public.contact') }}">Contact</a></li>
+            <li><a href="https://tally.so/r/pb1RaP" target="_blank" rel="noopener">Register</a></li>
+            <li><a href="{{ url_for('auth.access_verification') }}" class="navbar-cta">Start Learning</a></li>
+        </ul>
+
+        <!-- Theme toggle button -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+            🌙
+        </button>
+
+        <!-- Hamburger menu button (visible on mobile only) -->
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>

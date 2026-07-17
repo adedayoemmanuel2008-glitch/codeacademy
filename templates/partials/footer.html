@@ -1,0 +1,36 @@
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- Footer top: brand + quick links -->
+        <div class="footer-top">
+            <div class="footer-brand">
+                <img src="{{ url_for('static', filename='images/logo/seatech_logo.png') }}" alt="SEA TECH Logo" class="footer-logo">
+                <p class="footer-tagline">Learn technology skills for free.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="{{ url_for('public.home') }}">Home</a></li>
+                    <li><a href="{{ url_for('public.about') }}">About</a></li>
+                    <li><a href="{{ url_for('public.contact') }}">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="{{ url_for('public.privacy_policy') }}">Privacy Policy</a></li>
+                    <li><a href="{{ url_for('public.terms_conditions') }}">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer bottom: brand credit -->
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> SEA TECHNOLOGIES MEDIA. All rights reserved.</p>
+            <p class="footer-note">This platform is proudly built and maintained by SEA TECHNOLOGIES MEDIA.</p>
+        </div>
+
+    </div>
+</footer>
