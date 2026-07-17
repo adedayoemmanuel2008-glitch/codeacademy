@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn HTML, CSS, JavaScript, Python, Git and Django completely free with SEA TECHOLOGIES Code Academy.">
+    <meta name="description" content="Learn HTML, CSS, JavaScript, Python, Git and Django completely free with SEA TECH Code Academy.">
     <title>Code Academy - Learn Tech Skills for Free | SEA TECH</title>
 
     <!-- Google Fonts -->
@@ -19,7 +19,6 @@
 </head>
 <body>
 
-    <!-- Navbar -->
     {% include 'partials/navbar.html' %}
 
     <main>
@@ -33,7 +32,7 @@
                     <div class="hero-text">
                         <span class="hero-badge">100% Free • No Credit Card Required</span>
                         <h1>Learn <span class="text-primary-color">Tech Skills</span> That Get You Hired</h1>
-                        <p>Master HTML, CSS, JavaScript, Python, Git & Django with structured courses, real projects, and a supportive community completely free.</p>
+                        <p>Master HTML, CSS, JavaScript, Python, Git and Django with structured courses, real projects, and a supportive community — completely free.</p>
                         <div class="hero-actions">
                             <a href="https://tally.so/r/pb1RaP" target="_blank" rel="noopener" class="btn btn-primary">
                                 Register for Free
@@ -44,6 +43,37 @@
                         </div>
                         <p class="hero-note">Already registered? Enter your access code to start learning.</p>
                     </div>
-                    <div
-                  <script src="{{ url_for('static', filename='js/navbar.js') }}" defer></script>
-<script src="{{ url_for('static', filename='js/home.js') }}" defer></script>
+                    <div class="hero-visual">
+                        <div class="hero-code-card">
+                            <div class="code-card-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="code-card-title">index.html</span>
+                            </div>
+                            <div class="code-card-body">
+                                <p><span class="code-tag">&lt;html&gt;</span></p>
+                                <p class="indent"><span class="code-tag">&lt;head&gt;</span></p>
+                                <p class="indent-2"><span class="code-tag">&lt;title&gt;</span><span class="code-text">My First Website</span><span class="code-tag">&lt;/title&gt;</span></p>
+                                <p class="indent"><span class="code-tag">&lt;/head&gt;</span></p>
+                                <p class="indent"><span class="code-tag">&lt;body&gt;</span></p>
+                                <p class="indent-2"><span class="code-tag">&lt;h1&gt;</span><span class="code-text">Hello, World!</span><span class="code-tag">&lt;/h1&gt;</span></p>
+                                <p class="indent"><span class="code-tag">&lt;/body&gt;</span></p>
+                                <p><span class="code-tag">&lt;/html&gt;</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    {% include 'partials/footer.html' %}
+    {% include 'partials/whatsapp_button.html' %}
+
+    <script src="{{ url_for('static', filename='js/navbar.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/home.js') }}" defer></script>
+
+</body>
+</html>
