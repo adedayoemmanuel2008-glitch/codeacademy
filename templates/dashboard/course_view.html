@@ -33,14 +33,21 @@
             <!-- ── Course Header ── -->
             <div class="course-view-header">
                 <div class="course-view-icon">
-                    {% if course.course_id == 'html' %}🌐
-                    {% elif course.course_id == 'css' %}🎨
-                    {% elif course.course_id == 'javascript' %}⚡
-                    {% elif course.course_id == 'python' %}🐍
-                    {% elif course.course_id == 'git_github' %}🌿
-                    {% elif course.course_id == 'django' %}⚙️
-                    {% else %}📚
-                    {% endif %}
+{% if course.course_id == 'html' %}
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+{% elif course.course_id == 'css' %}
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+{% elif course.course_id == 'javascript' %}
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+{% elif course.course_id == 'python' %}
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+{% elif course.course_id == 'git_github' %}
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+{% elif course.course_id == 'django' %}
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django">
+{% else %}
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg" alt="Course">
+{% endif %}
                 </div>
                 <div class="course-view-header-text">
                     <h1>{{ course.course_name }}</h1>

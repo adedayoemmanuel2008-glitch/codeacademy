@@ -65,9 +65,9 @@
     "assigned_date": ""
   },
   "SEA-97BAAD": {
-    "used": false,
+    "used": true,
     "assigned_to": "",
-    "assigned_date": ""
+    "assigned_date": "2026-07-27"
   },
   "SEA-6LPK9": {
     "used": false,

@@ -155,4 +155,12 @@
     .courses-dashboard-grid {
         grid-template-columns: 1fr;
     }
+
+    /* ── Devicon Course Logos ── */
+.dashboard-course-icon img,
+.course-view-icon img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
 }

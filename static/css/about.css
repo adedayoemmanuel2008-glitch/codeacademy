@@ -407,4 +407,21 @@
         width: 180px;
         height: 180px;
     }
+
+/* ── Devicon Course Logos on About Page ── */
+    .course-list-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    .course-list-icon img {
+        width: 36px;
+        height: 36px;
+        object-fit: contain;
+        display: block;
+    }
 }
