@@ -7,8 +7,8 @@
       "title": "Introduction to Git & GitHub",
       "description": "What is version control, Git vs GitHub, why developers use it.",
       "video_link": "https://drive.google.com/file/d/1dA3Tw9cfh4FFhRJt-kG4TxDisDUqXwTs/preview",
-      "notes_link": "https://drive.google.com/file/d/1UYqt7YYCBGGMpaJfzElBM03yVcyHlzXW",
-      "code_link": "",
+      "notes_link": "/static/download/git-github/lesson-01-notes.txt",
+      "code_link":"",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -16,8 +16,8 @@
       "title": "Installing & Configuring Git",
       "description": "Install Git, set username and email, verify installation.",
       "video_link": "https://drive.google.com/file/d/17l0S2Wedh-9Sx9zbaOwez1esU9HDWKfR/preview",
-      "notes_link": "https://drive.google.com/file/d/1w9JiwpniyIrmYNjsHNMtCllxunDynDss",
-      "code_link": "https://drive.google.com/file/d/1D44Kp0KYIAkrwlhbn_NdXBpn1HLxtNGo",
+      "notes_link": "/static/download/lesson-02-notes.txt",
+      "code_link": "/static/download/lesson-02-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -25,8 +25,8 @@
       "title": "Your First Repository",
       "description": "git init, git status, git add, git commit.",
       "video_link": "https://drive.google.com/file/d/1kHDhSNVnwJIJI-wqO6ZrdfYFurhfMBxa/preview",
-      "notes_link": "https://drive.google.com/file/d/1oa42fFo1bJadtAzf2zoxEUwq9P38o8bj",
-      "code_link": "https://drive.google.com/file/d/1ObdKLQP9zb1mZx_ac0xSgA9-4Nzfd4LD",
+      "notes_link": "/static/download/git-github/lesson-03-notes.txt",
+      "code_link": "/static/download/git-github/lesson-03-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -34,8 +34,8 @@
       "title": "Branches",
       "description": "What is a branch, git branch, git checkout, git switch.",
       "video_link": "https://drive.google.com/file/d/1TDL_q4VdIvOl-BmdpoUbmUUTRjOH8-1W/preview",
-      "notes_link": "https://drive.google.com/file/d/1qNW9bmMGAnEPha-DMgP9zQyjCeHfZb1x",
-      "code_link": "https://drive.google.com/file/d/1fwX5w46ASjULpyXgGujSdshzFid_viAl",
+      "notes_link": "/static/download/git-github/lesson-04-notes.txt",
+      "code_link": "/static/download/git-github/lesson-04-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -43,8 +43,8 @@
       "title": "Merging",
       "description": "git merge, merge conflicts, how to resolve conflicts.",
       "video_link": "https://drive.google.com/file/d/1pIXnjggf8ZP7fOOiO5Lpb5aJHwTHFBkO/preview",
-      "notes_link": "https://drive.google.com/file/d/1TmknUF0jzzkwv5ZYvCpm73EpniKxH9dR",
-      "code_link": "https://drive.google.com/file/d/1Yakfqlmy05x4wI9AgJKWYgWr4nX0Oif1",
+      "notes_link": "/static/download/git-github/lesson-05-notes.txt",
+      "code_link": "/static/download/git-github/lesson-05-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -52,8 +52,8 @@
       "title": "GitHub Setup",
       "description": "Create account, create repository, connect local to remote.",
       "video_link": "https://drive.google.com/file/d/1eucLnYxYHJgd6SeJz58G5hTBzS3v21er/preview",
-      "notes_link": "https://drive.google.com/file/d/17J9moY6Nj9wEJgePIyhjNUYOZSkahYYn",
-      "code_link": "https://drive.google.com/file/d/1gmzn8Qx_-JD25SwUWYhEu_AIgO6Tjh4n",
+      "notes_link": "/static/download/git-github/lesson-06-notes-1.txt",
+      "code_link": "/static/download/git-github/lesson-06-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -61,8 +61,8 @@
       "title": "Push & Pull",
       "description": "git push, git pull, git fetch, syncing local and remote.",
       "video_link": "https://drive.google.com/file/d/1B1spDeiPIR310shVRCOlSXDe2EQmsmwr/preview",
-      "notes_link": "https://drive.google.com/file/d/1gBpBCJxCOI3h2pU5kJj4Ik0Kk4Tv9Str",
-      "code_link": "https://drive.google.com/file/d/1Fzl_ZgvSKRFyORXHCLv-hR6REWpqStWa",
+      "notes_link": "/static/download/git-github/lesson-07-notes.txt",
+      "code_link": "/static/download/git-github/lesson-07-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -70,8 +70,8 @@
       "title": "Cloning & Forking",
       "description": "git clone, forking a repo, contributing to other projects.",
       "video_link": "https://drive.google.com/file/d/1H-thHKNgV9JMQ_7VzboIyruLX4cOPEjn/preview",
-      "notes_link": "https://drive.google.com/file/d/10Pnwnx7fBBkasWiohMiUUkJlTWbLr0X3",
-      "code_link": "https://drive.google.com/file/d/1OWLH5ZsTd6baapygAwU7GM-B1PY-zLWy",
+      "notes_link": "/static/download/git-github/lesson-08-notes.txt",
+      "code_link": "/static/download/git-github/lesson-08-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -79,8 +79,8 @@
       "title": "GitHub Pages",
       "description": "Deploy a website free using GitHub Pages.",
       "video_link": "https://drive.google.com/file/d/1bQwZKIaaXk5i-xc8PrBjvJnuoBQfbldp/preview",
-      "notes_link": "https://drive.google.com/file/d/1KHGAXFgRCcaLqbKYNOAeYEDIvK885fJy",
-      "code_link": "https://drive.google.com/file/d/1wG5ZbQxQOZJfyb_p-ZuyXq0f9hjmdZzu",
+      "notes_link": "/static/download/git-github/lesson-09-notes.txt",
+      "code_link": "/static/download/git-github/lesson-09-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -88,8 +88,8 @@
       "title": "Git & GitHub Final Project",
       "description": "Build and deploy a complete portfolio using Git, GitHub and GitHub Pages.",
       "video_link": "https://drive.google.com/file/d/1Q9xLcMmzOuPqzEZss46fHOpUn0GVV2c5/preview",
-      "notes_link": "https://drive.google.com/file/d/1o3mN1KGkFAggk02bWO_i-Wr9aR4fdvnh",
-      "code_link": "https://drive.google.com/file/d/1wVrjEl51w8L4MmRKL0zkibqFmyuKJ9X5",
+      "notes_link": "/static/download/git-github/lesson-10-notes.txt",
+      "code_link": "/static/download/git-github/lesson-10-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     }
   ]
