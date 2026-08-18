@@ -5,29 +5,92 @@
     {
       "id": "01",
       "title": "Introduction to Git & GitHub",
-      "description": "Understand what version control is, why it matters, and the difference between Git and GitHub.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+      "description": "What is version control, Git vs GitHub, why developers use it.",
+      "video_link": "https://drive.google.com/file/d/1dA3Tw9cfh4FFhRJt-kG4TxDisDUqXwTs/preview",
+      "notes_link": "https://drive.google.com/file/d/1UYqt7YYCBGGMpaJfzElBM03yVcyHlzXW",
+      "code_link": "",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
       "id": "02",
-      "title": "Setting Up Git",
-      "description": "Install Git on your computer, configure your identity, and create your first local repository.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+      "title": "Installing & Configuring Git",
+      "description": "Install Git, set username and email, verify installation.",
+      "video_link": "https://drive.google.com/file/d/17l0S2Wedh-9Sx9zbaOwez1esU9HDWKfR/preview",
+      "notes_link": "https://drive.google.com/file/d/1w9JiwpniyIrmYNjsHNMtCllxunDynDss",
+      "code_link": "https://drive.google.com/file/d/1D44Kp0KYIAkrwlhbn_NdXBpn1HLxtNGo",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
       "id": "03",
-      "title": "Commits, Push and Pull",
-      "description": "Learn how to save your work with commits, push code to GitHub, and pull updates from a remote repository.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+      "title": "Your First Repository",
+      "description": "git init, git status, git add, git commit.",
+      "video_link": "https://drive.google.com/file/d/1kHDhSNVnwJIJI-wqO6ZrdfYFurhfMBxa/preview",
+      "notes_link": "https://drive.google.com/file/d/1oa42fFo1bJadtAzf2zoxEUwq9P38o8bj",
+      "code_link": "https://drive.google.com/file/d/1ObdKLQP9zb1mZx_ac0xSgA9-4Nzfd4LD",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
+    },
+    {
+      "id": "04",
+      "title": "Branches",
+      "description": "What is a branch, git branch, git checkout, git switch.",
+      "video_link": "https://drive.google.com/file/d/1TDL_q4VdIvOl-BmdpoUbmUUTRjOH8-1W/preview",
+      "notes_link": "https://drive.google.com/file/d/1qNW9bmMGAnEPha-DMgP9zQyjCeHfZb1x",
+      "code_link": "https://drive.google.com/file/d/1fwX5w46ASjULpyXgGujSdshzFid_viAl",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
+    },
+    {
+      "id": "05",
+      "title": "Merging",
+      "description": "git merge, merge conflicts, how to resolve conflicts.",
+      "video_link": "https://drive.google.com/file/d/1pIXnjggf8ZP7fOOiO5Lpb5aJHwTHFBkO/preview",
+      "notes_link": "https://drive.google.com/file/d/1TmknUF0jzzkwv5ZYvCpm73EpniKxH9dR",
+      "code_link": "https://drive.google.com/file/d/1Yakfqlmy05x4wI9AgJKWYgWr4nX0Oif1",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
+    },
+    {
+      "id": "06",
+      "title": "GitHub Setup",
+      "description": "Create account, create repository, connect local to remote.",
+      "video_link": "https://drive.google.com/file/d/1eucLnYxYHJgd6SeJz58G5hTBzS3v21er/preview",
+      "notes_link": "https://drive.google.com/file/d/17J9moY6Nj9wEJgePIyhjNUYOZSkahYYn",
+      "code_link": "https://drive.google.com/file/d/1gmzn8Qx_-JD25SwUWYhEu_AIgO6Tjh4n",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
+    },
+    {
+      "id": "07",
+      "title": "Push & Pull",
+      "description": "git push, git pull, git fetch, syncing local and remote.",
+      "video_link": "https://drive.google.com/file/d/1B1spDeiPIR310shVRCOlSXDe2EQmsmwr/preview",
+      "notes_link": "https://drive.google.com/file/d/1gBpBCJxCOI3h2pU5kJj4Ik0Kk4Tv9Str",
+      "code_link": "https://drive.google.com/file/d/1Fzl_ZgvSKRFyORXHCLv-hR6REWpqStWa",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
+    },
+    {
+      "id": "08",
+      "title": "Cloning & Forking",
+      "description": "git clone, forking a repo, contributing to other projects.",
+      "video_link": "https://drive.google.com/file/d/1H-thHKNgV9JMQ_7VzboIyruLX4cOPEjn/preview",
+      "notes_link": "https://drive.google.com/file/d/10Pnwnx7fBBkasWiohMiUUkJlTWbLr0X3",
+      "code_link": "https://drive.google.com/file/d/1OWLH5ZsTd6baapygAwU7GM-B1PY-zLWy",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
+    },
+    {
+      "id": "09",
+      "title": "GitHub Pages",
+      "description": "Deploy a website free using GitHub Pages.",
+      "video_link": "https://drive.google.com/file/d/1bQwZKIaaXk5i-xc8PrBjvJnuoBQfbldp/preview",
+      "notes_link": "https://drive.google.com/file/d/1KHGAXFgRCcaLqbKYNOAeYEDIvK885fJy",
+      "code_link": "https://drive.google.com/file/d/1wG5ZbQxQOZJfyb_p-ZuyXq0f9hjmdZzu",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
+    },
+    {
+      "id": "10",
+      "title": "Git & GitHub Final Project",
+      "description": "Build and deploy a complete portfolio using Git, GitHub and GitHub Pages.",
+      "video_link": "https://drive.google.com/file/d/1Q9xLcMmzOuPqzEZss46fHOpUn0GVV2c5/preview",
+      "notes_link": "https://drive.google.com/file/d/1o3mN1KGkFAggk02bWO_i-Wr9aR4fdvnh",
+      "code_link": "https://drive.google.com/file/d/1wVrjEl51w8L4MmRKL0zkibqFmyuKJ9X5",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
     }
   ]
 }
