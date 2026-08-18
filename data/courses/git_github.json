@@ -7,7 +7,7 @@
       "title": "Introduction to Git & GitHub",
       "description": "What is version control, Git vs GitHub, why developers use it.",
       "video_link": "https://drive.google.com/file/d/1dA3Tw9cfh4FFhRJt-kG4TxDisDUqXwTs/preview",
-      "notes_link": "/static/download/git-github/lesson-01-notes.txt",
+      "notes_link": "/static/download/lesson-01-notes.txt",
       "code_link":"",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
@@ -25,8 +25,8 @@
       "title": "Your First Repository",
       "description": "git init, git status, git add, git commit.",
       "video_link": "https://drive.google.com/file/d/1kHDhSNVnwJIJI-wqO6ZrdfYFurhfMBxa/preview",
-      "notes_link": "/static/download/git-github/lesson-03-notes.txt",
-      "code_link": "/static/download/git-github/lesson-03-source-code.txt",
+      "notes_link": "/static/download/lesson-03-notes.txt",
+      "code_link": "/static/download/lesson-03-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -34,8 +34,8 @@
       "title": "Branches",
       "description": "What is a branch, git branch, git checkout, git switch.",
       "video_link": "https://drive.google.com/file/d/1TDL_q4VdIvOl-BmdpoUbmUUTRjOH8-1W/preview",
-      "notes_link": "/static/download/git-github/lesson-04-notes.txt",
-      "code_link": "/static/download/git-github/lesson-04-source-code.txt",
+      "notes_link": "/static/download/lesson-04-notes.txt",
+      "code_link": "/static/download/lesson-04-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -43,8 +43,8 @@
       "title": "Merging",
       "description": "git merge, merge conflicts, how to resolve conflicts.",
       "video_link": "https://drive.google.com/file/d/1pIXnjggf8ZP7fOOiO5Lpb5aJHwTHFBkO/preview",
-      "notes_link": "/static/download/git-github/lesson-05-notes.txt",
-      "code_link": "/static/download/git-github/lesson-05-source-code.txt",
+      "notes_link": "/static/download/lesson-05-notes.txt",
+      "code_link": "/static/download/lesson-05-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -52,8 +52,8 @@
       "title": "GitHub Setup",
       "description": "Create account, create repository, connect local to remote.",
       "video_link": "https://drive.google.com/file/d/1eucLnYxYHJgd6SeJz58G5hTBzS3v21er/preview",
-      "notes_link": "/static/download/git-github/lesson-06-notes-1.txt",
-      "code_link": "/static/download/git-github/lesson-06-source-code.txt",
+      "notes_link": "/static/download/lesson-06-notes-1.txt",
+      "code_link": "/static/download/lesson-06-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -61,8 +61,8 @@
       "title": "Push & Pull",
       "description": "git push, git pull, git fetch, syncing local and remote.",
       "video_link": "https://drive.google.com/file/d/1B1spDeiPIR310shVRCOlSXDe2EQmsmwr/preview",
-      "notes_link": "/static/download/git-github/lesson-07-notes.txt",
-      "code_link": "/static/download/git-github/lesson-07-source-code.txt",
+      "notes_link": "/static/download/lesson-07-notes.txt",
+      "code_link": "/static/download/lesson-07-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -70,8 +70,8 @@
       "title": "Cloning & Forking",
       "description": "git clone, forking a repo, contributing to other projects.",
       "video_link": "https://drive.google.com/file/d/1H-thHKNgV9JMQ_7VzboIyruLX4cOPEjn/preview",
-      "notes_link": "/static/download/git-github/lesson-08-notes.txt",
-      "code_link": "/static/download/git-github/lesson-08-source-code.txt",
+      "notes_link": "/static/download/lesson-08-notes.txt",
+      "code_link": "/static/download/lesson-08-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -79,8 +79,8 @@
       "title": "GitHub Pages",
       "description": "Deploy a website free using GitHub Pages.",
       "video_link": "https://drive.google.com/file/d/1bQwZKIaaXk5i-xc8PrBjvJnuoBQfbldp/preview",
-      "notes_link": "/static/download/git-github/lesson-09-notes.txt",
-      "code_link": "/static/download/git-github/lesson-09-source-code.txt",
+      "notes_link": "/static/download/lesson-09-notes.txt",
+      "code_link": "/static/download/lesson-09-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
@@ -88,8 +88,8 @@
       "title": "Git & GitHub Final Project",
       "description": "Build and deploy a complete portfolio using Git, GitHub and GitHub Pages.",
       "video_link": "https://drive.google.com/file/d/1Q9xLcMmzOuPqzEZss46fHOpUn0GVV2c5/preview",
-      "notes_link": "/static/download/git-github/lesson-10-notes.txt",
-      "code_link": "/static/download/git-github/lesson-10-source-code.txt",
+      "notes_link": "/static/download/lesson-10-notes.txt",
+      "code_link": "/static/download/lesson-10-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     }
   ]
