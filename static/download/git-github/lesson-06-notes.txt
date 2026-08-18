@@ -1,0 +1,61 @@
+LESSON 6 — GITHUB SETUP
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+WHAT IS GITHUB?
+GitHub is the world's largest platform
+for hosting and sharing code.
+Over 100 million developers use it.
+
+CREATING A GITHUB ACCOUNT
+1. Go to github.com
+2. Click Sign Up
+3. Enter your email address
+4. Create a password
+5. Choose a username
+6. Verify your email
+7. Complete setup
+
+USERNAME TIPS
+Choose something professional.
+Good: emmanuel-adedayo, dave-thomas
+Bad:  coolboy123, xXxcoder
+
+CREATING A REPOSITORY ON GITHUB
+1. Click the + icon top right
+2. Click New repository
+3. Enter repository name
+4. Choose Public or Private
+5. Do NOT tick Add README if you have
+   a local project already
+6. Click Create repository
+
+PUBLIC vs PRIVATE
+Public  — Anyone can see your code
+Private — Only you can see your code
+
+CONNECTING LOCAL PROJECT TO GITHUB
+git remote add origin YOUR_GITHUB_URL
+
+Example:
+git remote add origin https://github.com/
+emmanuel/my-project.git
+
+VERIFY CONNECTION
+git remote -v
+
+You should see:
+origin  https://github.com/... (fetch)
+origin  https://github.com/... (push)
+
+PUSH FOR THE FIRST TIME
+git branch -M main
+git push -u origin main
+
+KEY TERMS
+Remote — A connection to GitHub
+Origin — The default name for your
+         GitHub connection
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

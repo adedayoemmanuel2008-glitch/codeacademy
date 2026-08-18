@@ -1,0 +1,56 @@
+LESSON 4 — SOURCE CODE
+Branches
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+STEP 1: Check current branch
+git branch
+
+STEP 2: Create a new branch
+git branch feature-one
+
+STEP 3: See all branches
+git branch
+
+STEP 4: Switch to the new branch
+git checkout feature-one
+
+STEP 5: Confirm you switched
+git branch
+
+STEP 6: Create a file on this branch
+echo "This is feature one" > feature.txt
+
+STEP 7: Add and commit
+git add .
+git commit -m "Added feature one file"
+
+STEP 8: Switch back to main
+git switch main
+
+STEP 9: Check files — feature.txt is gone
+dir
+
+STEP 10: Switch back to feature-one
+git switch feature-one
+
+STEP 11: Check files — feature.txt is back
+dir
+
+STEP 12: Create and switch in one command
+git checkout -b feature-two
+
+STEP 13: Confirm you are on feature-two
+git branch
+
+STEP 14: Switch back to main
+git switch main
+
+STEP 15: Delete feature-one
+git branch -d feature-one
+
+STEP 16: Confirm deletion
+git branch
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

@@ -1,0 +1,57 @@
+LESSON 1 — INTRODUCTION TO GIT & GITHUB
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+WHAT IS VERSION CONTROL?
+Version control is a system that records
+changes to your files over time so you can:
+- See what changed and when
+- Go back to any previous version
+- Work with others without conflicts
+
+WHAT IS GIT?
+- Git is a free version control tool
+- It runs on your computer (local)
+- It tracks every change you make to your code
+- Created by Linus Torvalds in 2005
+- Used by over 90% of developers worldwide
+
+WHAT IS GITHUB?
+- GitHub is a website (github.com)
+- It stores your Git repositories online
+- Think of it as cloud storage for your code
+- Allows teams to collaborate on projects
+- Free to use for public and private projects
+
+GIT vs GITHUB
+Git                     GitHub
+────────────────────────────────
+Tool on your laptop     Website online
+Works offline           Needs internet
+Tracks changes          Stores your code
+Free software           Free platform
+Command line            Visual interface
+
+WHY DEVELOPERS USE GIT & GITHUB
+1. Never lose your work
+2. See full history of every change
+3. Work safely without breaking anything
+4. Collaborate with teams worldwide
+5. Show your work to employers
+6. Deploy projects live
+
+KEY TERMS TO REMEMBER
+Repository (Repo) — A project folder tracked by Git
+Commit            — A saved snapshot of your work
+Branch            — A separate version of your project
+Push              — Send code from laptop to GitHub
+Pull              — Get code from GitHub to laptop
+Clone             — Download a project from GitHub
+
+SUMMARY
+Git is the tool. GitHub is the platform.
+Together they are the most important
+tools in a developer's workflow.
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

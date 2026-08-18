@@ -1,0 +1,67 @@
+LESSON 4 — BRANCHES
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+WHAT IS A BRANCH?
+A branch is an independent version
+of your project.
+
+THE BOOK ANALOGY
+Imagine writing a book:
+- Main story        = main branch
+- Trying new ending = new branch
+- Like it? Merge it back
+- Hate it? Delete the branch
+- Original is always safe
+
+WHY USE BRANCHES?
+1. Work on new features safely
+2. Fix bugs without breaking main code
+3. Multiple team members work simultaneously
+4. Experiment without risk
+5. Professional standard workflow
+
+THE DEFAULT BRANCH
+When you run git init Git creates
+a default branch called main.
+
+BRANCH COMMANDS
+
+See all branches:
+git branch
+(Star * shows current branch)
+
+Create a new branch:
+git branch branch-name
+
+Switch to a branch:
+git checkout branch-name
+OR
+git switch branch-name
+
+Create AND switch in one command:
+git checkout -b branch-name
+
+Delete a branch:
+git branch -d branch-name
+
+IMPORTANT RULES
+1. Always commit before switching branches
+2. Never delete main branch
+3. Switch to main before deleting other branches
+4. Each branch is completely independent
+
+BRANCH NAMING TIPS
+Good: feature-login, fix-navbar-bug, update-homepage
+Bad: branch1, test, new, temp
+
+WHAT HAPPENS ON EACH BRANCH
+Changes on one branch do NOT affect others.
+
+Example:
+- Create file on feature branch
+- Switch to main — file is GONE
+- Switch back to feature — file is BACK
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

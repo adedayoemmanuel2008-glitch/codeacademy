@@ -1,0 +1,73 @@
+LESSON 10 — GIT & GITHUB PROJECT
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+FINAL PROJECT OVERVIEW
+In this final lesson we bring together
+everything learned in this course.
+
+We will build and deploy a complete
+Developer Portfolio Website using:
+- HTML and CSS for the webpage
+- Git for version control
+- GitHub for hosting the code
+- GitHub Pages for live deployment
+
+PROJECT REQUIREMENTS
+1. Create a portfolio webpage (index.html)
+2. Initialize a Git repository
+3. Make multiple meaningful commits
+4. Push to GitHub
+5. Deploy live using GitHub Pages
+6. Update the site and verify changes reflect
+
+WHAT YOUR PORTFOLIO SHOULD INCLUDE
+- Your name and title
+- About section
+- Skills section (HTML CSS JavaScript Python Git)
+- Projects section
+- Contact information
+
+COMMIT BEST PRACTICES
+Make separate commits for each section:
+git commit -m "Added header and navigation"
+git commit -m "Added about section"
+git commit -m "Added skills section"
+git commit -m "Added projects section"
+git commit -m "Added contact section"
+git commit -m "Added styling"
+
+This shows a professional commit history.
+
+PROFESSIONAL GIT WORKFLOW SUMMARY
+1. git init (once per project)
+2. git add .
+3. git commit -m "clear message"
+4. git push
+5. Repeat steps 2-4 as you work
+
+COMMANDS LEARNED IN THIS COURSE
+git init              — Create repository
+git status            — Check status
+git add .             — Stage all files
+git commit -m ""      — Save snapshot
+git log               — View history
+git branch            — List branches
+git checkout -b name  — Create and switch branch
+git switch name       — Switch branch
+git merge name        — Merge branch
+git remote add origin — Connect to GitHub
+git push origin main  — Upload to GitHub
+git pull origin main  — Download from GitHub
+git clone URL         — Download a repository
+git fetch             — Download without applying
+
+CONGRATULATIONS
+You have completed the Git and GitHub course
+on Code Academy by SEA TECHNOLOGIES MEDIA.
+
+You now have the version control skills
+that every professional developer uses daily.
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

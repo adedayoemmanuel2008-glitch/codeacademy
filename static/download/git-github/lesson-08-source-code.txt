@@ -1,0 +1,64 @@
+LESSON 8 — SOURCE CODE
+Cloning & Forking
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+── CLONING ──
+
+STEP 1: Go to any GitHub repository
+Example: https://github.com/username/project
+
+STEP 2: Click the green Code button
+Copy the HTTPS URL
+
+STEP 3: Open your terminal and clone
+git clone https://github.com/username/project.git
+
+STEP 4: Move into the cloned folder
+cd project
+
+STEP 5: Check remote connection
+git remote -v
+
+STEP 6: Check all files are there
+dir
+
+STEP 7: Check commit history
+git log --oneline
+
+── FORKING ──
+
+STEP 1: Go to any GitHub repository
+Example: https://github.com/facebook/react
+
+STEP 2: Click Fork button top right
+
+STEP 3: Click Create Fork
+
+STEP 4: Clone YOUR fork to your laptop
+git clone https://github.com/YOURUSERNAME/react.git
+
+STEP 5: Make changes, add and commit
+git add .
+git commit -m "My contribution"
+
+STEP 6: Push to your fork
+git push origin main
+
+STEP 7: Go to GitHub
+Click Compare & Pull Request
+Fill in details and submit
+
+── KEEPING YOUR FORK UPDATED ──
+
+STEP 1: Add original repo as upstream
+git remote add upstream https://github.com/facebook/react.git
+
+STEP 2: Fetch latest from original
+git fetch upstream
+
+STEP 3: Merge updates into your fork
+git merge upstream/main
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

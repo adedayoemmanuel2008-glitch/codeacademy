@@ -1,0 +1,99 @@
+LESSON 10 — SOURCE CODE
+Git & GitHub Final Project
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+── FULL PROJECT WORKFLOW ──
+
+STEP 1: Create project folder
+cd Desktop
+mkdir developer-portfolio
+cd developer-portfolio
+
+STEP 2: Create your index.html file in VS Code
+(Write your complete portfolio HTML here)
+
+STEP 3: Initialize Git
+git init
+
+STEP 4: First commit — project setup
+git add .
+git commit -m "Initial commit — portfolio setup"
+
+STEP 5: Add about section to index.html
+git add .
+git commit -m "Added about section"
+
+STEP 6: Add skills section
+git add .
+git commit -m "Added skills section"
+
+STEP 7: Add projects section
+git add .
+git commit -m "Added projects section"
+
+STEP 8: Add contact section
+git add .
+git commit -m "Added contact section"
+
+STEP 9: Add CSS styling
+git add .
+git commit -m "Added complete styling"
+
+STEP 10: View your full commit history
+git log --oneline
+
+── PUSH TO GITHUB ──
+
+STEP 11: Create repo on github.com
+Name: developer-portfolio
+
+STEP 12: Connect and push
+git remote add origin https://github.com/yourusername/developer-portfolio.git
+git branch -M main
+git push -u origin main
+
+── DEPLOY WITH GITHUB PAGES ──
+
+STEP 13: Go to repo Settings on GitHub
+Click Pages
+Select main branch and / root
+Click Save
+
+STEP 14: Wait 1-2 minutes
+Visit: https://yourusername.github.io/developer-portfolio
+
+── MAKE AN UPDATE ──
+
+STEP 15: Make any change to index.html
+git add .
+git commit -m "Updated portfolio content"
+git push
+
+Wait 1-2 minutes — live site updates automatically.
+
+── COMPLETE COMMAND REFERENCE ──
+
+git init              Create new repository
+git status            Check current status
+git add .             Stage all changes
+git add filename      Stage specific file
+git commit -m ""      Save with message
+git log               Full history
+git log --oneline     Short history
+git branch            List all branches
+git checkout -b name  Create and switch branch
+git switch name       Switch to branch
+git merge name        Merge branch into current
+git branch -d name    Delete branch
+git remote add origin URL   Connect to GitHub
+git remote -v               Check connections
+git push origin main        Upload to GitHub
+git push                    Upload (after setup)
+git pull origin main        Download from GitHub
+git pull                    Download (after setup)
+git clone URL               Download repository
+git fetch                   Download without merge
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

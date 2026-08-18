@@ -1,0 +1,45 @@
+LESSON 3 — SOURCE CODE
+Your First Repository
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+STEP 1: Go to Desktop
+cd Desktop
+
+STEP 2: Create a new project folder
+mkdir my-first-project
+
+STEP 3: Move into the folder
+cd my-first-project
+
+STEP 4: Initialize Git repository
+git init
+
+STEP 5: Create a file
+echo "Hello Git" > index.txt
+
+STEP 6: Check what Git can see
+git status
+
+STEP 7: Add the file to staging area
+git add index.txt
+
+STEP 8: Check status again
+git status
+
+STEP 9: Commit the file
+git commit -m "My first commit"
+
+STEP 10: See commit history
+git log
+
+STEP 11: Add everything at once
+echo "Second file" > about.txt
+git add .
+git commit -m "Added about file"
+
+STEP 12: Check history in short format
+git log --oneline
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

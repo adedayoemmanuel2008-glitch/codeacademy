@@ -1,0 +1,25 @@
+LESSON 2 — SOURCE CODE
+Installing & Configuring Git
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+STEP 1: Check if Git is installed
+git --version
+
+STEP 2: Configure your email
+git config --global user.email "youremail@gmail.com"
+
+STEP 3: Configure your name
+git config --global user.name "Your Full Name"
+
+STEP 4: Confirm your email was saved
+git config --global user.email
+
+STEP 5: Confirm your name was saved
+git config --global user.name
+
+STEP 6: See all your Git configuration
+git config --list
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

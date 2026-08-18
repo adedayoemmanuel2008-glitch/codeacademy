@@ -1,0 +1,82 @@
+LESSON 3 — YOUR FIRST REPOSITORY
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+WHAT IS A REPOSITORY?
+A repository (repo) is a project folder
+that Git is tracking.
+
+Normal folder  = just stores files
+Repository     = stores files + full history
+                 of every change ever made
+
+THE FOUR CORE COMMANDS
+1. git init
+2. git status
+3. git add
+4. git commit
+
+GIT INIT
+Creates a new Git repository.
+Run this once per project.
+
+Command: git init
+Output: Initialized empty Git repository
+
+What happens:
+Git creates a hidden .git folder inside
+your project. Never delete it.
+
+GIT STATUS
+Shows the current state of your repository.
+Run anytime to see what is happening.
+
+Command: git status
+
+Possible states:
+Untracked  — Git sees file but not tracking it
+Modified   — File changed since last commit
+Staged     — File is ready to be committed
+
+GIT ADD
+Moves files to the staging area.
+
+Add a specific file:
+git add filename.txt
+
+Add everything:
+git add .
+
+THE STAGING AREA ANALOGY
+Think of packing a box to send:
+git add = picking items and placing in the box
+The box is not sent yet.
+
+GIT COMMIT
+Permanently saves staged files into Git history.
+
+Command: git commit -m "Your message here"
+
+Good commit messages:
+git commit -m "Added homepage"
+git commit -m "Fixed login bug"
+git commit -m "Updated navigation"
+
+Bad commit messages:
+git commit -m "changes"
+git commit -m "stuff"
+
+GIT LOG
+See full history of all commits.
+Command: git log
+Press Q to exit.
+
+SUMMARY WORKFLOW
+mkdir project-name
+cd project-name
+git init
+git add .
+git commit -m "First commit"
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

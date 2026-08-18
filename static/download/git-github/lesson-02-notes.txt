@@ -1,0 +1,57 @@
+LESSON 2 — INSTALLING & CONFIGURING GIT
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+DOWNLOADING GIT
+1. Open your browser
+2. Go to: git-scm.com
+3. Click Download for Windows
+4. Wait for download to complete
+
+INSTALLING GIT
+1. Open the downloaded installer file
+2. Click Next through all steps
+3. Do not change any default settings
+4. Click Install
+5. Click Finish when complete
+
+CONFIGURING GIT
+After installing open your terminal and
+run these two commands:
+
+Set your email:
+git config --global user.email "youremail@gmail.com"
+
+Set your name:
+git config --global user.name "Your Full Name"
+
+WHY CONFIGURE?
+Every commit you make will have your name
+and email attached to it automatically.
+This identifies who made each change.
+
+CONFIRMING INSTALLATION
+Check Git version:
+git --version
+Expected output: git version 2.xx.x
+
+Check your name was saved:
+git config --global user.name
+
+Check your email was saved:
+git config --global user.email
+
+IMPORTANT NOTES
+- Use --global to set for all projects
+- You only need to configure once
+- You can change anytime by running same commands
+
+COMMON ERRORS
+Error: git is not recognized
+Fix: Restart your terminal after installing
+
+Error: fatal: empty ident name
+Fix: Run the config commands above
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

@@ -1,0 +1,64 @@
+LESSON 5 — SOURCE CODE
+Merging
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+STEP 1: Make sure you are on main
+git switch main
+
+STEP 2: Create a new feature branch
+git checkout -b add-contact-page
+
+STEP 3: Create a new file
+echo "Contact Page Content" > contact.txt
+
+STEP 4: Add and commit
+git add .
+git commit -m "Added contact page"
+
+STEP 5: Switch back to main
+git switch main
+
+STEP 6: Confirm contact.txt is not on main
+dir
+
+STEP 7: Merge branch into main
+git merge add-contact-page
+
+STEP 8: Confirm contact.txt is now on main
+dir
+
+STEP 9: Delete the merged branch
+git branch -d add-contact-page
+
+STEP 10: Confirm branch is deleted
+git branch
+
+── CREATING A MERGE CONFLICT ──
+
+STEP 11: Create a file on main
+echo "Original content" > story.txt
+git add .
+git commit -m "Added story file"
+
+STEP 12: Create branch and change file
+git checkout -b edit-story
+echo "Branch version" > story.txt
+git add .
+git commit -m "Changed story on branch"
+
+STEP 13: Switch to main and change same file
+git switch main
+echo "Main version" > story.txt
+git add .
+git commit -m "Changed story on main"
+
+STEP 14: Try to merge — conflict happens
+git merge edit-story
+
+STEP 15: Fix the conflict then run:
+git add .
+git commit -m "Resolved merge conflict"
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

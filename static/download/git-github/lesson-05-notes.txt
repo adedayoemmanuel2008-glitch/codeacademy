@@ -1,0 +1,63 @@
+LESSON 5 — MERGING
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+WHAT IS MERGING?
+Merging is combining the work from
+one branch into another branch.
+
+HOW TO MERGE
+Always merge INTO main.
+Switch to main first, then merge.
+
+Step 1: Switch to main
+git switch main
+
+Step 2: Merge your branch into main
+git merge branch-name
+
+TYPES OF MERGES
+
+Fast-Forward Merge:
+Happens when main has no new commits
+since you created your branch.
+Git simply moves main forward.
+Clean and simple.
+
+3-Way Merge:
+Happens when both branches have new commits.
+Git creates a special merge commit.
+
+MERGE CONFLICTS
+A conflict happens when:
+- Two branches changed the SAME line
+  in the SAME file differently
+- Git does not know which version to keep
+
+HOW TO RESOLVE A CONFLICT
+Open the conflicted file. You will see:
+
+<<<<<<< HEAD
+Your version of the code
+=======
+The other branch version
+>>>>>>> branch-name
+
+To fix:
+1. Delete the conflict markers
+2. Keep the version you want
+3. Save the file
+4. git add .
+5. git commit -m "Resolved merge conflict"
+
+AFTER MERGING
+Delete the branch you merged:
+git branch -d branch-name
+
+MERGE WORKFLOW SUMMARY
+git switch main
+git merge feature-branch
+git branch -d feature-branch
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

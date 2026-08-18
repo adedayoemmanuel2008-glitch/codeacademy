@@ -1,0 +1,46 @@
+LESSON 7 — SOURCE CODE
+Push & Pull
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+STEP 1: Check remote connection
+git remote -v
+
+STEP 2: Create a new file to push
+echo "Ready to push" > push-test.txt
+
+STEP 3: Add and commit
+git add .
+git commit -m "Added push test file"
+
+STEP 4: Push to GitHub
+git push origin main
+
+STEP 5: Go to GitHub and refresh
+You should see push-test.txt there
+
+STEP 6: Make a change directly on GitHub
+Edit any file on github.com and commit
+
+STEP 7: Pull the change to your laptop
+git pull origin main
+
+STEP 8: Verify the change is on your laptop
+Open the file — the edit should be there
+
+STEP 9: Fetch without applying
+git fetch origin
+
+STEP 10: See what changed
+git log origin/main --oneline
+
+STEP 11: Apply fetched changes
+git merge origin/main
+
+── DAILY WORKFLOW ──
+Morning:    git pull origin main
+During day: git add . | git commit -m "work done"
+End of day: git push origin main
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

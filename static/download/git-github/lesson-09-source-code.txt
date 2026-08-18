@@ -1,0 +1,59 @@
+LESSON 9 — SOURCE CODE
+GitHub Pages
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+── CREATE YOUR PORTFOLIO PROJECT ──
+
+STEP 1: Create project folder on Desktop
+cd Desktop
+mkdir my-portfolio
+cd my-portfolio
+
+STEP 2: Create index.html
+(Create and write your HTML file in VS Code)
+
+STEP 3: Initialize Git
+git init
+
+STEP 4: Add and commit all files
+git add .
+git commit -m "Initial portfolio commit"
+
+── PUSH TO GITHUB ──
+
+STEP 5: Create a new repo on github.com
+Name it: my-portfolio
+
+STEP 6: Connect and push
+git remote add origin https://github.com/yourusername/my-portfolio.git
+git branch -M main
+git push -u origin main
+
+── ENABLE GITHUB PAGES ──
+
+STEP 7: Go to your repo on GitHub
+Click Settings tab
+
+STEP 8: Click Pages in left sidebar
+
+STEP 9: Under Source select:
+Branch: main
+Folder: / (root)
+Click Save
+
+STEP 10: Wait 1-2 minutes then refresh
+Your URL will appear:
+https://yourusername.github.io/my-portfolio
+
+── UPDATE YOUR LIVE SITE ──
+
+Every time you make changes:
+git add .
+git commit -m "Updated portfolio"
+git push
+
+Wait 1-2 minutes — site updates automatically.
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

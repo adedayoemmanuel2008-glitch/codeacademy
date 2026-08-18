@@ -1,0 +1,59 @@
+LESSON 9 — GITHUB PAGES
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+WHAT IS GITHUB PAGES?
+GitHub Pages is a free hosting service
+provided by GitHub.
+
+It allows you to deploy a website directly
+from your GitHub repository — completely free.
+
+No server needed.
+No hosting fees.
+No complex setup.
+Just push your code and your site is live.
+
+WHAT YOU CAN HOST
+- Personal portfolio websites
+- HTML CSS JavaScript websites
+- Project documentation
+- Landing pages
+- Any static website
+
+WHAT YOU CANNOT HOST
+- Python/Django websites (needs a server)
+- Websites with databases
+- Backend applications
+
+YOUR LIVE URL FORMAT
+https://yourusername.github.io/repository-name
+
+Example:
+https://emmanuel-adedayo.github.io/my-portfolio
+
+HOW TO ENABLE GITHUB PAGES
+1. Go to your repository on GitHub
+2. Click Settings tab
+3. Click Pages in the left sidebar
+4. Under Source select Deploy from a branch
+5. Select main branch
+6. Select / (root) folder
+7. Click Save
+8. Wait 1-2 minutes
+9. Refresh the page
+10. Your live URL will appear at the top
+
+IMPORTANT RULES
+- Your main HTML file must be named index.html
+- All file names are case sensitive
+- Changes take 1-2 minutes to appear live
+- Push changes with git push — site updates automatically
+
+CUSTOM DOMAIN
+You can connect your own domain to GitHub Pages.
+For example: yourname.com instead of github.io URL
+This requires buying a domain from Namecheap or GoDaddy.
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

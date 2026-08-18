@@ -1,0 +1,64 @@
+LESSON 7 — PUSH & PULL
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+WHAT IS PUSH?
+git push sends your committed work
+from your laptop up to GitHub.
+Think of it as uploading to the cloud.
+
+WHAT IS PULL?
+git pull brings the latest work
+from GitHub down to your laptop.
+Think of it as downloading to your laptop.
+
+SIMPLE WAY TO REMEMBER
+Push = goes UP to GitHub
+Pull = comes DOWN to your laptop
+
+GIT PUSH COMMAND
+git push origin main
+
+After first push you can just type:
+git push
+
+GIT PULL COMMAND
+git pull origin main
+
+After setup you can just type:
+git pull
+
+WHEN TO PUSH
+- When you finish a feature
+- At the end of every work session
+- Before sharing your work
+- Before deploying live
+
+WHEN TO PULL
+- Before starting work every day
+- When someone tells you they pushed code
+- When working on multiple computers
+
+GIT FETCH
+Downloads changes without applying them.
+
+git fetch origin
+git log origin/main --oneline
+git merge origin/main
+
+Most beginners use git pull instead.
+
+PROFESSIONAL DAILY WORKFLOW
+Morning:    git pull origin main
+During day: git add . then git commit -m ""
+End of day: git push origin main
+
+COMMON ERRORS
+Error: rejected non-fast-forward
+Fix: git pull first then git push
+
+Error: Authentication failed
+Fix: Use Personal Access Token as password
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.

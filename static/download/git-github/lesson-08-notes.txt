@@ -1,0 +1,60 @@
+LESSON 8 — CLONING & FORKING
+Code Academy | SEA TECHNOLOGIES MEDIA
+________________________________________
+
+WHAT IS CLONING?
+Cloning is downloading a complete copy
+of a GitHub repository to your laptop.
+
+When you clone a repo you get:
+- All the files
+- The complete commit history
+- All branches
+
+CLONE COMMAND
+git clone GITHUB_URL
+
+Example:
+git clone https://github.com/username/project.git
+
+After cloning:
+cd project
+git remote -v
+You will see origin already connected.
+
+WHEN TO CLONE
+- When starting work on an existing project
+- When you want to use someone's project locally
+- When joining a team project
+
+WHAT IS FORKING?
+Forking creates your own copy of someone
+else's repository on YOUR GitHub account.
+
+The fork lives on GitHub — not your laptop.
+After forking you clone YOUR fork to your laptop.
+
+CLONE vs FORK
+Clone  — Downloads repo to your laptop
+Fork   — Copies repo to your GitHub account
+
+FORK WORKFLOW
+1. Go to any GitHub repository
+2. Click Fork button top right
+3. GitHub creates a copy in your account
+4. Clone your fork to your laptop
+5. Make your changes
+6. Push to your fork
+7. Create a Pull Request to the original
+
+PULL REQUEST
+A Pull Request (PR) is a request to the
+original repo owner to review and merge
+your changes into their project.
+
+This is how open source contribution works.
+This is how millions of developers collaborate
+on projects worldwide.
+________________________________________
+Code Academy | SEA TECHNOLOGIES MEDIA
+Learn. Build. Innovate.
