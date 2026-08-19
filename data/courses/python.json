@@ -4,30 +4,12 @@
   "lessons": [
     {
       "id": "01",
-      "title": "Introduction to Python",
-      "description": "Understand what Python is, why it is one of the most popular programming languages, and write your first Python program.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
-    },
-    {
-      "id": "02",
-      "title": "Variables and Data Types",
-      "description": "Learn how to store information using variables and explore Python's core data types including strings, integers, floats, and booleans.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
-    },
-    {
-      "id": "03",
-      "title": "Control Flow and Loops",
-      "description": "Control how your program runs using if statements, for loops, and while loops to build logic and repeat actions.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+      "title": "Complete Python Course",
+      "description": "A complete Python course covering variables, data types, conditions, loops, functions, lists, dictionaries, file handling and a final project.",
+      "video_link": "https://drive.google.com/file/d/1QOFp2xsojLAySwfMZVRUSfJoKluo2BxJ/preview",
+      "notes_link": "",
+      "code_link": "",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
     }
   ]
 }
