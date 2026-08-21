@@ -4,30 +4,12 @@
   "lessons": [
     {
       "id": "01",
-      "title": "Introduction to HTML",
-      "description": "Understand what HTML is, how the web works, and set up your first HTML file.",
-      "video_link": "https://drive.google.com/PASTE_VIDEO_LINK_HERE",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
+      "title": "Complete HTML Course",
+      "description": "A complete HTML course covering structure, elements, text formatting, links, images, lists, tables, forms, semantic HTML, media and a final personal profile page project.",
+      "video_link": "https://drive.google.com/file/d/1aM-EoCPr8pIuNy_2MDzTLdaejzf2StKc/preview",
+      "notes_link": "/static/download/html_notes.pdf", 
+      "code_link": "/static/download/html_source_code.pdf",
       "assignment_link": "https://tally.so/r/Gx4O6e"
-    },
-    {
-      "id": "02",
-      "title": "HTML Elements and Tags",
-      "description": "Learn the most important HTML tags and how to structure content correctly.",
-      "video_link": "https://drive.google.com/PASTE_VIDEO_LINK_HERE",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/PASTE_ASSIGNMENT_LINK_HERE"
-    },
-    {
-      "id": "03",
-      "title": "Forms and Inputs",
-      "description": "Build interactive forms to collect information from users.",
-      "video_link": "https://drive.google.com/PASTE_VIDEO_LINK_HERE",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/PASTE_ASSIGNMENT_LINK_HERE"
     }
   ]
 }
