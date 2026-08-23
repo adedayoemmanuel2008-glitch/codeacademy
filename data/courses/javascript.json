@@ -4,30 +4,12 @@
   "lessons": [
     {
       "id": "01",
-      "title": "Introduction to JavaScript",
-      "description": "Understand what JavaScript is, how it runs in the browser, and write your first script.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
-    },
-    {
-      "id": "02",
-      "title": "Variables and Data Types",
-      "description": "Learn how to store and work with different types of data using variables in JavaScript.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
-    },
-    {
-      "id": "03",
-      "title": "Functions and Logic",
-      "description": "Build reusable blocks of code with functions and control your program flow with conditions.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+      "title": "Complete JavaScript Course",
+      "description": "A complete JavaScript course covering variables, data types, operators, conditions, loops, functions, arrays, objects, DOM manipulation, events and a final interactive student dashboard project.",
+      "video_link": "https://drive.google.com/file/d/1WHqVZW9WgS3HS5lpxHuRUE7Zts3lw5l5/preview",
+      "notes_link": "/static/download/javascript-notes.pdf",
+      "code_link": "/static/download/javascript-source-code.pdf",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
     }
   ]
 }
