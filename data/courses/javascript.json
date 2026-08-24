@@ -7,8 +7,8 @@
       "title": "Complete JavaScript Course",
       "description": "A complete JavaScript course covering variables, data types, operators, conditions, loops, functions, arrays, objects, DOM manipulation, events and a final interactive student dashboard project.",
       "video_link": "https://drive.google.com/file/d/1WHqVZW9WgS3HS5lpxHuRUE7Zts3lw5l5/preview",
-      "notes_link": "/static/download/javascript-notes.pdf",
-      "code_link": "/static/download/javascript-source-code.pdf",
+      "notes_link": "/static/download/js_notes.pdf",
+      "code_link": "/static/download/js_source_code.pdf",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     }
   ]
