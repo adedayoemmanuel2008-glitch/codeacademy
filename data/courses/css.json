@@ -4,30 +4,12 @@
   "lessons": [
     {
       "id": "01",
-      "title": "Introduction to CSS",
-      "description": "Understand what CSS is and how it connects to HTML to style web pages.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
-    },
-    {
-      "id": "02",
-      "title": "CSS Selectors and Properties",
-      "description": "Learn how to target HTML elements and apply styles using CSS selectors and properties.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
-    },
-    {
-      "id": "03",
-      "title": "Box Model and Layout",
-      "description": "Master the CSS box model and understand how margin, padding, and borders affect layout.",
-      "video_link": "https://drive.google.com/file/d/PASTE_VIDEO_ID_HERE/preview",
-      "notes_link": "https://drive.google.com/PASTE_NOTES_LINK_HERE",
-      "code_link": "https://drive.google.com/PASTE_CODE_LINK_HERE",
-      "assignment_link": "https://tally.so/r/PASTE_ASSIGNMENT_LINK_HERE"
+      "title": "Complete CSS Course",
+      "description": "A complete CSS course covering introduction, colors, backgrounds, typography, box model, selectors, display, flexbox, positioning, responsive design and a final profile page project.",
+      "video_link": "https://drive.google.com/file/d/1v6W5bQ2fORWCCwXKEjtiUFk-ip-5ATWY/preview",
+      "notes_link": "/static/download/css_notes.pdf",
+      "code_link": "/static/download/css_source_code.pdf",
+      "assignment_link": "https://tally.so/r/Gx4O6e"
     }
   ]
 }
