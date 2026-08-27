@@ -8,14 +8,14 @@
       "description": "What is version control, Git vs GitHub, why developers use it.",
       "video_link": "https://drive.google.com/file/d/1dA3Tw9cfh4FFhRJt-kG4TxDisDUqXwTs/preview",
       "notes_link": "/static/download/lesson-01-notes.txt",
-      "code_link":"",
+      "code_link": "",
       "assignment_link": "https://tally.so/r/Gx4O6e"
     },
     {
       "id": "02",
       "title": "Installing & Configuring Git",
       "description": "Install Git, set username and email, verify installation.",
-      "video_link": "https://drive.google.com/file/d/17l0S2Wedh-9Sx9zbaOwez1esU9HDWKfR/preview",
+      "video_link": "https://drive.google.com/file/d/1afFWCyRrwmT5ZvW8azazGcYxthrVwJLv/preview",
       "notes_link": "/static/download/lesson-02-notes.txt",
       "code_link": "/static/download/lesson-02-source-code.txt",
       "assignment_link": "https://tally.so/r/Gx4O6e"
