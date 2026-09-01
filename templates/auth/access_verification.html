@@ -1,129 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enter Access Code - Code Academy | SEA TECH</title>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/access_verification.css') }}">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/base.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/navbar.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/footer.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/access_verification.css') }}"
+    />
+  </head>
+  <body>
     {% include 'partials/navbar.html' %}
 
     <main class="verification-page">
-        <div class="container">
-            <div class="verification-wrapper">
+      <div class="container">
+        <div class="verification-wrapper">
+          <!-- ── Left: Instructional Video ── -->
+          <div class="verification-video-side">
+            <h2>How to Get Started</h2>
+            <p>
+              Watch this short video to understand how to access your courses
+              after entering your code.
+            </p>
 
-                <!-- ── Left: Instructional Video ── -->
-                <div class="verification-video-side">
-                    <h2>How to Get Started</h2>
-                    <p>Watch this short video to understand how to access your courses after entering your code.</p>
-
-                    <!-- 
+            <!-- 
                         PASTE YOUR GOOGLE DRIVE VIDEO LINK BELOW
                         https://drive.google.com/file/d/YOUR_FILE_ID/preview
                     -->
-                    <div class="video-embed-wrapper">
-                        <iframe
-                            src="https://drive.google.com/file/d/13aZ5R7oeF24UYkZfBW04qfyGUpjZTS50/preview"
-                            allow="autoplay"
-                            allowfullscreen
-                            class="video-embed">
-                        </iframe>
-                    </div>
-
-                    <div class="video-steps">
-                        <div class="video-step">
-                            <span class="video-step-number">1</span>
-                            <span>Register using the registration form</span>
-                        </div>
-                        <div class="video-step">
-                            <span class="video-step-number">2</span>
-                            <span>Wait for your personal access code (within 48 hours)</span>
-                        </div>
-                        <div class="video-step">
-                            <span class="video-step-number">3</span>
-                            <span>Enter your code below to unlock all courses</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ── Right: Access Code Form ── -->
-                <div class="verification-form-side">
-                    <div class="verification-card">
-
-                        <!-- Logo -->
-                        <div class="verification-logo">
-                            <img src="{{ url_for('static', filename='images/logo/seatech_logo.png') }}"
-                                 alt="SEA TECH Logo">
-                        </div>
-
-                        <h2>Enter Your Access Code</h2>
-                        <p>Enter the personal access code sent to you by SEA TECH to unlock your learning dashboard.</p>
-
-                        <!-- Error Message -->
-                        {% if error %}
-                        <div class="verification-error">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10"/>
-                                <line x1="12" y1="8" x2="12" y2="12"/>
-                                <line x1="12" y1="16" x2="12.01" y2="16"/>
-                            </svg>
-                            {{ error }}
-                        </div>
-                        {% endif %}
-
-                        <!-- Access Code Form -->
-                        <form method="POST" action="{{ url_for('auth.access_verification') }}" class="verification-form">
-                            <div class="form-group">
-                                <label for="access_code">Access Code</label>
-                                <input
-                                    type="text"
-                                    id="access_code"
-                                    name="access_code"
-                                    placeholder="e.g. SEA-XXXXX"
-                                    autocomplete="off"
-                                    autocapitalize="characters"
-                                    spellcheck="false"
-                                    required>
-                            </div>
-                            <button type="submit" class="btn btn-primary verification-submit">
-                                Login
-                            </button>
-                        </form>
-
-                        <div class="verification-footer">
-                            <p>Don't have an access code yet?</p>
-                            <a href="https://tally.so/r/pb1RaP"
-                               target="_blank"
-                               rel="noopener"
-                               class="btn btn-secondary">
-                                Register for Free
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-
+            <div class="video-embed-wrapper">
+              <iframe
+                src="https://drive.google.com/file/d/13aZ5R7oeF24UYkZfBW04qfyGUpjZTS50/preview"
+                allow="autoplay"
+                allowfullscreen
+                class="video-embed"
+              >
+              </iframe>
             </div>
+
+            <div class="video-steps">
+              <div class="video-step">
+                <span class="video-step-number">1</span>
+                <span>Register using the registration form</span>
+              </div>
+              <div class="video-step">
+                <span class="video-step-number">2</span>
+                <span
+                  >Wait for your personal access code (within 48 hours)</span
+                >
+              </div>
+              <div class="video-step">
+                <span class="video-step-number">3</span>
+                <span>Enter your code below to unlock all courses</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── Right: Access Code Form ── -->
+          <div class="verification-form-side">
+            <div class="verification-card">
+              <!-- Logo -->
+              <div class="verification-logo">
+                <img
+                  src="{{ url_for('static', filename='images/logo/seatech_logo.png') }}"
+                  alt="SEA TECH Logo"
+                />
+              </div>
+
+              <h2>Enter Your Access Code</h2>
+              <p>
+                Enter the personal access code sent to you by SEA TECH to unlock
+                your learning dashboard.
+              </p>
+
+              <!-- Error Message -->
+              {% if error %}
+              <div class="verification-error">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <line x1="12" y1="8" x2="12" y2="12" />
+                  <line x1="12" y1="16" x2="12.01" y2="16" />
+                </svg>
+                {{ error }}
+              </div>
+              {% endif %}
+
+              <!-- Access Code Form -->
+              <form
+                method="POST"
+                action="{{ url_for('auth.access_verification') }}"
+                class="verification-form"
+              >
+                <div class="form-group">
+                  <label for="access_code">Access Code</label>
+                  <input
+                    type="text"
+                    id="access_code"
+                    name="access_code"
+                    placeholder="e.g. SEATECH-XXXXXXXXX"
+                    autocomplete="off"
+                    autocapitalize="characters"
+                    spellcheck="false"
+                    required
+                  />
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary verification-submit"
+                >
+                  Login
+                </button>
+              </form>
+
+              <div class="verification-footer">
+                <p>Don't have an access code yet?</p>
+                <a
+                  href="https://tally.so/r/pb1RaP"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn btn-secondary"
+                >
+                  Register for Free
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
 
-    {% include 'partials/footer.html' %}
-    {% include 'partials/whatsapp_button.html' %}
+    {% include 'partials/footer.html' %} {% include
+    'partials/whatsapp_button.html' %}
 
     <script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
     <script src="{{ url_for('static', filename='js/access_verification.js') }}"></script>
-
-</body>
+  </body>
 </html>

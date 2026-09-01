@@ -6,12 +6,15 @@ load_dotenv()
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY')
-    FLASK_ENV = os.environ.get('FLASK_ENV', 'development')
+    FLASK_ENV  = os.environ.get('FLASK_ENV', 'development')
 
-    # Keep students logged in for 90 days
+    # Session settings
     PERMANENT_SESSION_LIFETIME = timedelta(days=90)
+    SESSION_COOKIE_SAMESITE    = 'Lax'
+    SESSION_COOKIE_SECURE      = False  # Change to True on Render
 
-    # This is the critical line — forces the session cookie
-    # to persist even after the browser is fully closed
-    SESSION_COOKIE_SAMESITE = 'Lax'
-    SESSION_COOKIE_SECURE = False  # Change to True on Render (HTTPS)
+    # ── SESSION VERSION ──
+    # Change this number to force ALL students to log out
+    # Example: change 1 to 2 and push to GitHub
+    # Everyone gets logged out automatically
+    SESSION_VERSION = 1
